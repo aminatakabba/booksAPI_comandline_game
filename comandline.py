@@ -5,9 +5,9 @@ import time
 
 # ========== INTRODUCTION TO THE APP ================
 print('Hello, bookholic :), welcome to Ami\'s library')
-# time.sleep(2) # Allows user to have sometime to read
+time.sleep(2) # Allows user to have sometime to read
 print('This is the best place to find your favourite books, new and interesting reads')
-# time.sleep(2) # Allows user to have sometime to read
+time.sleep(2) # Allows user to have sometime to read
 url = "https://www.googleapis.com/books/v1/volumes?q=" # API URL
 interest = input('What interests you?  You can write the author, book title or genra that comes to your mind \n') # User will add what type of books they're looking for
 urlInterest = str(url + interest) # Attaches the standard url to the input from the user
