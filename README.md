@@ -1,5 +1,5 @@
 <h1>Ami's Library </h1>
-<h2>A CLI Python application that uses Google Books API to </h2>
+<h2>A CLI Python application that uses Google Books API</h2>
 <p>Ami's library aims to provide customers with the best selection of books using the Google Books API. </p>
 <h4>Main features of the app</h4>
 <ul>
