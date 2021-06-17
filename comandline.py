@@ -26,11 +26,11 @@ requesting = requests.get(urlInterest).json()
 items = requesting['items']
 
 for item in items:
-    # author = item['volumeInfo']['authors'] # Find the authors
+    author = item['volumeInfo']['authors'] # Find the authors
     title = item['volumeInfo']['title'] # Find the title of the book
     publisher = item['volumeInfo']['publisher'] # Find the publishing company
     print("AUTHORS: " )
-    # print(author)
+    print(author)
     print("TITLE: \n" + title)
     print("PUBLISHER: \n" + publisher)    
     print("\n")
